@@ -146,6 +146,7 @@ a,
 .btn {
      text-decoration: none !important;
      outline: none !important;
+     border-radius : 50px;
      -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
@@ -167,6 +168,7 @@ img {
      background-color: transparent !important;
      border: 2px solid #ddd;
      padding: 12px 40px;
+    border-radius : 50px;
      font-size: 16px;
 }
 
@@ -276,6 +278,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
+     padding-right: -100px;
      color: #fff;
      font-size: 16px;
      line-height: 20px;
@@ -295,15 +298,17 @@ button {
 }
 
 .navbar-expand-md .navbar-nav {
-     padding-right: 10px;
+     padding-right: 0px;
 }
 
 .sign_btn a {
      color: #fff;
      font-size: 17px;
+     border-radius : 50px;
 }
 
 .sign_btn a:hover {
+     border-radius : 50px;
      color: #000;
 }
 
@@ -395,11 +400,13 @@ button {
 }
 
 .text-img {
-     background: #da16e6;
+     background: #0c0f38;
+     
 }
 
 .text-img figure {
      margin: 0px;
+     border-radius: 50PX;
 }
 
 .text-img figure img {
