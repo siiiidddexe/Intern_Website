@@ -469,7 +469,12 @@ button {
 .feature .feature_box .read_more {
      background: #000;
      color: #fff;
+     height: 10% ;
+     width: 190px;
      margin-top: 40px;
+   font-size: 12px;
+   
+     
 }
 
 .feature .feature_box .read_more:hover {
